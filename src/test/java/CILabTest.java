@@ -21,19 +21,19 @@ public class CILabTest {
 
     @Test
     public void detectCapitalUseTest1() {
-       myString.setString("FlaG");;
+       myString.setString("FlaG");
        assertFalse(myString.detectCapitalUse());
 
     }
     @Test
     public void detectCapitalUseTest2() {
-        myString.setString("Usa");;
+        myString.setString("USA");
         assertTrue(myString.detectCapitalUse());
     }
 
     @Test
     public void detectCapitalUseTest3() {
-        myString.setString("heraldicclouds");;
+        myString.setString("heraldicclouds");
         assertTrue(myString.detectCapitalUse());
     }
 
